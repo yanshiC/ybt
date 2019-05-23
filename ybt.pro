@@ -25,13 +25,34 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        a_1_ypls.cpp \
+        a_2_lsqd.cpp \
+        a_3_ypxstj.cpp \
+        a_4_tkcl.cpp \
+        b_1_qssq.cpp \
+        b_2_qscx.cpp \
+        c_1_xgybkmm.cpp \
         main.cpp \
         ybtmain.cpp
 
 HEADERS += \
+        a_1_ypls.h \
+        a_2_lsqd.h \
+        a_3_ypxstj.h \
+        a_4_tkcl.h \
+        b_1_qssq.h \
+        b_2_qscx.h \
+        c_1_xgybkmm.h \
         ybtmain.h
 
 FORMS += \
+        a_1_ypls.ui \
+        a_2_lsqd.ui \
+        a_3_ypxstj.ui \
+        a_4_tkcl.ui \
+        b_1_qssq.ui \
+        b_2_qscx.ui \
+        c_1_xgybkmm.ui \
         ybtmain.ui
 
 # Default rules for deployment.

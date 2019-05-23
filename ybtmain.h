@@ -2,6 +2,14 @@
 #define YBTMAIN_H
 
 #include <QMainWindow>
+#include <QApplication>
+#include "a_1_ypls.h"
+#include "a_2_lsqd.h"
+#include "a_3_ypxstj.h"
+#include "a_4_tkcl.h"
+#include "b_1_qssq.h"
+#include "b_2_qscx.h"
+#include "c_1_xgybkmm.h"
 
 namespace Ui {
 class ybtMain;
@@ -14,6 +22,30 @@ class ybtMain : public QMainWindow
 public:
     explicit ybtMain(QWidget *parent = nullptr);
     ~ybtMain();
+
+private slots:
+
+    void on_action_triggered();
+
+    void on_action_2_triggered();
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_action_3_triggered();
+
+    void on_action_4_triggered();
+
+    void on_action_7_triggered();
+
+    void on_action_8_triggered();
+
+    void on_pushButton_3_clicked();
+
+    void on_action_5_triggered();
+
+    void on_action_9_triggered();
 
 private:
     Ui::ybtMain *ui;
