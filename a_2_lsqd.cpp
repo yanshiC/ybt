@@ -8,6 +8,8 @@ a_2_lsqd::a_2_lsqd(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    setWindowState(Qt::WindowMaximized) ;
+
     Qt::WindowFlags flags=Qt::Dialog;
     flags |=Qt::WindowMinMaxButtonsHint;
     flags |=Qt::WindowCloseButtonHint;

@@ -7,7 +7,8 @@ ybtMain::ybtMain(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    setWindowFlags(Qt::WindowStaysOnTopHint);
+    setWindowState(Qt::WindowMaximized) ;
+
 }
 
 ybtMain::~ybtMain()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1920</width>
+    <height>1080</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,14 +16,30 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>490</y>
+     <x>1610</x>
+     <y>970</y>
      <width>131</width>
      <height>51</height>
     </rect>
    </property>
    <property name="text">
     <string>回到主菜单</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>751</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
    </property>
   </widget>
  </widget>
