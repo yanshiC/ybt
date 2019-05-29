@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>医保通</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/TIM截图20190529214107.jpg);</string>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
