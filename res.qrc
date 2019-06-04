@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>TIM截图20190529214107.jpg</file>
+        <file>banner.jpg</file>
+        <file>a_1_ypls.png</file>
+        <file>a_2_lsqd.png</file>
+        <file>a_3_ypxstj.png</file>
+        <file>b_1_qssq.png</file>
+        <file>c_1_xgybkmm.png</file>
+        <file>d_3_ydgl.png</file>
     </qresource>
 </RCC>

@@ -3,6 +3,16 @@
 
 #include <QMainWindow>
 #include <QApplication>
+#include <QDebug>
+#include <QtSql/QSqlResult>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlError>
+#include <QtSql>
+#include <QtSql/QtSql>
+#include <QPluginLoader>
+#include <QMessageBox>
+
 #include "a_1_ypls.h"
 #include "a_2_lsqd.h"
 #include "a_3_ypxstj.h"
@@ -46,6 +56,10 @@ private slots:
     void on_action_5_triggered();
 
     void on_action_9_triggered();
+
+    void on_pushButton_5_clicked();
+
+    void on_pushButton_6_clicked();
 
 private:
     Ui::ybtMain *ui;

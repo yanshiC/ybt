@@ -6,6 +6,7 @@
 
 QT       += core gui
 QT       += network
+QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,6 +28,7 @@ CONFIG += c++11
 
 SOURCES += \
         a_1_ypls.cpp \
+        a_1_ypls_check.cpp \
         a_2_lsqd.cpp \
         a_3_ypxstj.cpp \
         a_4_tkcl.cpp \
@@ -38,6 +40,7 @@ SOURCES += \
 
 HEADERS += \
         a_1_ypls.h \
+        a_1_ypls_check.h \
         a_2_lsqd.h \
         a_3_ypxstj.h \
         a_4_tkcl.h \
@@ -48,6 +51,7 @@ HEADERS += \
 
 FORMS += \
         a_1_ypls.ui \
+        a_1_ypls_check.ui \
         a_2_lsqd.ui \
         a_3_ypxstj.ui \
         a_4_tkcl.ui \
@@ -64,5 +68,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     res.qrc
 
-DISTFILES += \
-    res/TIM截图20190529213412.jpg
+win32: LIBS += -LD:/Qt/5.12.3/mingw73_32/bin/ -llibmysql
+
+INCLUDEPATH += D:/Qt/5.12.3/mingw73_32/bin
+DEPENDPATH += D:/Qt/5.12.3/mingw73_32/bin

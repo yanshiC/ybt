@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+#include "a_1_ypls_check.h"
+
 namespace Ui {
 class a_1_ypls;
 }
@@ -17,6 +19,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::a_1_ypls *ui;

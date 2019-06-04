@@ -14,6 +14,7 @@ a_1_ypls::a_1_ypls(QWidget *parent) :
     flags |=Qt::WindowMinMaxButtonsHint;
     flags |=Qt::WindowCloseButtonHint;
     setWindowFlags(flags);
+
 }
 
 a_1_ypls::~a_1_ypls()
@@ -24,4 +25,10 @@ a_1_ypls::~a_1_ypls()
 void a_1_ypls::on_pushButton_clicked()
 {
     a_1_ypls ::close() ;
+}
+
+void a_1_ypls::on_pushButton_2_clicked()
+{
+    a_1_ypls_check awsl ;
+    awsl.exec() ;
 }

@@ -47,7 +47,7 @@
     <rect>
      <x>30</x>
      <y>100</y>
-     <width>100</width>
+     <width>70</width>
      <height>30</height>
     </rect>
    </property>
@@ -58,9 +58,9 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>130</x>
+     <x>100</x>
      <y>100</y>
-     <width>150</width>
+     <width>200</width>
      <height>30</height>
     </rect>
    </property>
@@ -230,6 +230,11 @@
      <height>551</height>
     </rect>
    </property>
+   <row>
+    <property name="text">
+     <string>药品1</string>
+    </property>
+   </row>
    <column>
     <property name="text">
      <string>序号</string>
@@ -280,6 +285,24 @@
      <string>处方药类型</string>
     </property>
    </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>100</y>
+     <width>200</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>填入表单</string>
+   </property>
   </widget>
  </widget>
  <resources/>

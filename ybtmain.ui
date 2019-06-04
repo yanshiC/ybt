@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1920</width>
-    <height>1080</height>
+    <width>1921</width>
+    <height>1081</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>医保通</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/TIM截图20190529214107.jpg);</string>
+   <string notr="true">background-image: url(:/banner.jpg);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
@@ -22,51 +22,95 @@
      <rect>
       <x>40</x>
       <y>550</y>
-      <width>281</width>
-      <height>181</height>
+      <width>300</width>
+      <height>100</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/a_1_ypls.png);</string>
+    </property>
     <property name="text">
-     <string>药品零售</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>1470</x>
-      <y>530</y>
-      <width>281</width>
-      <height>181</height>
+      <x>1500</x>
+      <y>550</y>
+      <width>300</width>
+      <height>100</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/a_2_lsqd.png);</string>
+    </property>
     <property name="text">
-     <string>零售清单</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>780</y>
-      <width>281</width>
-      <height>181</height>
+      <y>700</y>
+      <width>300</width>
+      <height>100</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/b_1_qssq.png);</string>
+    </property>
     <property name="text">
-     <string>清算申请</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>1470</x>
-      <y>770</y>
-      <width>281</width>
-      <height>181</height>
+      <x>1500</x>
+      <y>700</y>
+      <width>300</width>
+      <height>100</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/d_3_ydgl.png);</string>
+    </property>
     <property name="text">
-     <string>药典管理</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>850</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/a_3_ypxstj.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>850</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/c_1_xgybkmm.png);</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
@@ -75,8 +119,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1920</width>
-     <height>26</height>
+     <width>1921</width>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
