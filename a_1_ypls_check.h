@@ -2,6 +2,14 @@
 #define A_1_YPLS_CHECK_H
 
 #include <QDialog>
+#include <QDebug>
+#include <QtSql/QSqlResult>
+#include <QtSql/QSqlDatabase>
+#include <QtSql/QSqlQuery>
+#include <QtSql/QSqlError>
+#include <QtSql>
+#include <QtSql/QtSql>
+#include <QPluginLoader>
 
 namespace Ui {
 class a_1_ypls_check;

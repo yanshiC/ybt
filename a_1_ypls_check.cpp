@@ -15,6 +15,8 @@ a_1_ypls_check::~a_1_ypls_check()
 
 void a_1_ypls_check::on_buttonBox_accepted()
 {
+    QSqlQuery q ;
+    q.exec("") ;
     a_1_ypls_check ::close() ;
 }
 

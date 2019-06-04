@@ -12,7 +12,7 @@ ybtMain::ybtMain(QWidget *parent) :
     setWindowState(Qt::WindowMaximized) ;
 
     QSqlDatabase db = QSqlDatabase ::addDatabase("QMYSQL") ;
-    db.setHostName("127.0.0.1") ;
+    db.setHostName("148.70.14.18") ;
     db.setUserName("ybt") ;
     db.setPort(3306) ;
     db.setPassword("qwerqwer") ;
