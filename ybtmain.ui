@@ -14,7 +14,13 @@
    <string>医保通</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/banner.jpg);</string>
+   <string notr="true">background-image: url(:/res/banner.jpg);</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>192</width>
+    <height>192</height>
+   </size>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
@@ -27,7 +33,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/a_1_ypls.png);
+     <string notr="true">background-image: url(:/res/a_1_ypls.png);
 </string>
     </property>
     <property name="text">
@@ -44,7 +50,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/a_2_lsqd.png);</string>
+     <string notr="true">background-image: url(:/res/a_2_lsqd.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -60,7 +66,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/b_1_qssq.png);</string>
+     <string notr="true">background-image: url(:/res/b_1_qssq.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -76,7 +82,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/d_3_ydgl.png);</string>
+     <string notr="true">background-image: url(:/res/d_3_ydgl.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -92,7 +98,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/a_3_ypxstj.png);</string>
+     <string notr="true">background-image: url(:/res/a_3_ypxstj.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -108,7 +114,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-image: url(:/c_1_xgybkmm.png);</string>
+     <string notr="true">background-image: url(:/res/c_1_xgybkmm.png);</string>
     </property>
     <property name="text">
      <string/>

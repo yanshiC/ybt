@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="bt_back">
    <property name="geometry">
     <rect>
      <x>1560</x>
@@ -55,7 +55,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;社保局：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="SbjName_Qt">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -73,20 +73,20 @@
     <rect>
      <x>300</x>
      <y>100</y>
-     <width>100</width>
+     <width>50</width>
      <height>30</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;结算时间：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;卡号：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="CardNo_Qt">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>350</x>
      <y>100</y>
-     <width>150</width>
+     <width>200</width>
      <height>30</height>
     </rect>
    </property>
@@ -107,7 +107,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;医保卡余额：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_7">
+  <widget class="QLabel" name="Money_Qt">
    <property name="geometry">
     <rect>
      <x>650</x>
@@ -133,7 +133,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;个人编号：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_9">
+  <widget class="QLabel" name="IdNo_Qt">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -151,7 +151,7 @@
     <rect>
      <x>300</x>
      <y>130</y>
-     <width>100</width>
+     <width>50</width>
      <height>30</height>
     </rect>
    </property>
@@ -159,12 +159,12 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;姓名：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_11">
+  <widget class="QLabel" name="Name_Qt">
    <property name="geometry">
     <rect>
-     <x>400</x>
+     <x>350</x>
      <y>130</y>
-     <width>150</width>
+     <width>200</width>
      <height>30</height>
     </rect>
    </property>
@@ -185,7 +185,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;其他信息：&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_13">
+  <widget class="QLabel" name="Others_Qt">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -232,7 +232,7 @@
    </property>
    <row>
     <property name="text">
-     <string>药品1</string>
+     <string>1</string>
     </property>
    </row>
    <column>
@@ -267,6 +267,11 @@
    </column>
    <column>
     <property name="text">
+     <string>处方药类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
      <string>单价</string>
     </property>
    </column>
@@ -277,12 +282,7 @@
    </column>
    <column>
     <property name="text">
-     <string>总额</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>处方药类型</string>
+     <string>总价</string>
     </property>
    </column>
    <item row="0" column="0">
@@ -302,6 +302,71 @@
    </property>
    <property name="text">
     <string>填入表单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_push">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>890</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交零售单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>890</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_select">
+   <property name="geometry">
+    <rect>
+     <x>1190</x>
+     <y>810</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>药品查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_add">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>810</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>加一行</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_sum">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>810</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>计算总额</string>
    </property>
   </widget>
  </widget>

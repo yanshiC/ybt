@@ -7,7 +7,7 @@ c_1_xgybkmm::c_1_xgybkmm(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    setWindowState(Qt::WindowMaximized) ;
+    //setWindowState(Qt::WindowMaximized) ;
 
     Qt::WindowFlags flags=Qt::Dialog;
     flags |=Qt::WindowMinMaxButtonsHint;

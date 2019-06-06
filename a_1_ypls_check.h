@@ -10,6 +10,8 @@
 #include <QtSql>
 #include <QtSql/QtSql>
 #include <QPluginLoader>
+#include <QString>
+#include <QMessageBox>
 
 namespace Ui {
 class a_1_ypls_check;
@@ -24,9 +26,10 @@ public:
     ~a_1_ypls_check();
 
 private slots:
-    void on_buttonBox_accepted();
 
-    void on_buttonBox_rejected();
+    void on_bt_check_clicked();
+
+    void on_bt_cancel_clicked();
 
 private:
     Ui::a_1_ypls_check *ui;

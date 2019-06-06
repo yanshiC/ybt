@@ -18,15 +18,11 @@ ybtMain::ybtMain(QWidget *parent) :
     db.setPassword("qwerqwer") ;
     db.setDatabaseName("ybt") ;
 
-    if ( db.open() )
+    if ( ! db.open() )
     {
-        QMessageBox ::information( this , "Tips" , "数据库连接成功！") ;
+        QMessageBox ::information( this , "Tips" ,
+                                   "数据库连接失败！" ) ;
     }
-    else
-    {
-        QMessageBox ::information( this , "Tips" , "数据库连接失败！" ) ;
-    }
-
 }
 
 ybtMain::~ybtMain()
@@ -56,8 +52,10 @@ void ybtMain::on_action_2_triggered()
 }
 void ybtMain::on_pushButton_2_clicked()
 {
-    a_2_lsqd lsqd ;
-    lsqd.exec() ;
+    QMessageBox ::information( this , "Tips" ,
+                               "开发中！" ) ;
+    //a_2_lsqd lsqd ;
+    //lsqd.exec() ;
 }
 
 
@@ -69,8 +67,10 @@ void ybtMain::on_action_3_triggered()
 }
 void ybtMain::on_pushButton_5_clicked()
 {
-    a_3_ypxstj w ;
-    w.exec() ;
+    QMessageBox ::information( this , "Tips" ,
+                               "开发中！" ) ;
+    //a_3_ypxstj w ;
+    //w.exec() ;
 }
 
 
@@ -87,8 +87,10 @@ void ybtMain::on_action_7_triggered()
 }
 void ybtMain::on_pushButton_3_clicked()
 {
-    b_1_qssq w ;
-    w.exec() ;
+    QMessageBox ::information( this , "Tips" ,
+                               "开发中！" ) ;
+    //b_1_qssq w ;
+    //w.exec() ;
 }
 
 
@@ -118,3 +120,9 @@ void ybtMain::on_action_9_triggered()
 }
 
 
+
+void ybtMain::on_pushButton_4_clicked()
+{
+    QMessageBox ::information( this , "Tips" ,
+                               "开发中！" ) ;
+}

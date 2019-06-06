@@ -72,3 +72,5 @@ win32: LIBS += -LD:/Qt/5.12.3/mingw73_32/bin/ -llibmysql
 
 INCLUDEPATH += D:/Qt/5.12.3/mingw73_32/bin
 DEPENDPATH += D:/Qt/5.12.3/mingw73_32/bin
+
+RC_ICONS = ybt.ico
